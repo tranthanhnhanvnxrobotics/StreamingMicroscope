@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Microscope logo">
+  <g fill="#ffffff">
+    <rect x="105" y="26" width="34" height="118" transform="rotate(-45 122 85)" rx="2" />
+    <path d="M128 84c-44.2 0-80 35.8-80 80s35.8 80 80 80 80-35.8 80-80h-30c0 27.6-22.4 50-50 50s-50-22.4-50-50 22.4-50 50-50z" />
+    <rect x="98" y="222" width="92" height="22" rx="1" />
+  </g>
+</svg>

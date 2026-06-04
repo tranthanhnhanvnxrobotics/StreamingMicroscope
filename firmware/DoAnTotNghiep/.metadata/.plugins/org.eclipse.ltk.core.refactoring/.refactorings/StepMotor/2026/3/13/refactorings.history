@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;StepMotor/Core/App/app_control.c&apos; to &apos;app_control&apos;" description="Rename resource &apos;app_control.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/App/app_control.c" name="app_control" stamp="1774712635823" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;StepMotor/Core/App/stepper_coltrol&apos; to &apos;stepper_control&apos;" description="Rename resource &apos;stepper_coltrol&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/App/stepper_coltrol" name="stepper_control" stamp="1774712712380" updateReferences="true"/>
+</session>

@@ -1,0 +1,6 @@
+../Core/App/as5600/as5600.c:7:21:as5600_read_mem	48	static
+../Core/App/as5600/as5600.c:34:6:As5600_Init	16	static
+../Core/App/as5600/as5600.c:50:6:As5600_SetAddress	16	static
+../Core/App/as5600/as5600.c:58:6:As5600_SetTimeout	16	static
+../Core/App/as5600/as5600.c:66:14:As5600_ReadRawAngle	24	static
+../Core/App/as5600/as5600.c:85:14:As5600_ReadDiagnostics	32	static

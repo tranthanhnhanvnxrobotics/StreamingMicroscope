@@ -1,0 +1,6 @@
+../Core/App/as5600/as5600.c:7:21:as5600_read_mem	7
+../Core/App/as5600/as5600.c:34:6:As5600_Init	3
+../Core/App/as5600/as5600.c:50:6:As5600_SetAddress	2
+../Core/App/as5600/as5600.c:58:6:As5600_SetTimeout	3
+../Core/App/as5600/as5600.c:66:14:As5600_ReadRawAngle	4
+../Core/App/as5600/as5600.c:85:14:As5600_ReadDiagnostics	6

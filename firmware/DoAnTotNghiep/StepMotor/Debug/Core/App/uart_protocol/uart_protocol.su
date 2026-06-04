@@ -1,0 +1,2 @@
+../Core/App/uart_protocol/uart_protocol.c:6:13:starts_with	16	static
+../Core/App/uart_protocol/uart_protocol.c:10:6:UartProtocol_ParseCommand	24	static

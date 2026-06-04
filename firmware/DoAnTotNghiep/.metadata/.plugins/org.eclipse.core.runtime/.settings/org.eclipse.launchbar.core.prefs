@@ -1,0 +1,12 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:StepMotor Debug (1),org.eclipse.launchbar.core.descriptorType.default\:StepMotor Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:StepMotor Debug (3)
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:StepMotor\ Debug\ (3)/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:StepMotor\ Debug\ (3)/activeLaunchTarget=null\:---
+org.eclipse.launchbar.core.descriptorType.default\:StepMotor\ Debug\ (1)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:StepMotor\ Debug\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:StepMotor\ Debug\ (2)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:StepMotor\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:StepMotor\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

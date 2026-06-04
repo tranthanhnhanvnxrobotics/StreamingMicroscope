@@ -1,0 +1,8 @@
+../Core/App/dc_motor_control/dc_motor_control.c:3:13:set_in_pins_x	16	static
+../Core/App/dc_motor_control/dc_motor_control.c:16:13:set_in_pins_y	16	static
+../Core/App/dc_motor_control/dc_motor_control.c:29:6:DcMotor_Init	24	static
+../Core/App/dc_motor_control/dc_motor_control.c:54:6:DcMotor_Start	16	static
+../Core/App/dc_motor_control/dc_motor_control.c:67:6:DcMotor_StopAll	16	static
+../Core/App/dc_motor_control/dc_motor_control.c:78:6:DcMotor_SetAxis	24	static
+../Core/App/dc_motor_control/dc_motor_control.c:96:9:DcMotor_GetEncoderX	16	static
+../Core/App/dc_motor_control/dc_motor_control.c:103:9:DcMotor_GetEncoderY	16	static

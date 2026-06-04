@@ -1,0 +1,178 @@
+22:31:45 **** Incremental Build of configuration Debug for project StepMotor ****
+make -j12 all 
+arm-none-eabi-size  StepMotor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57440	    108	  24684	  82232	  14138	StepMotor.elf
+Finished building: default.size.stdout
+ 
+22:31:53 **** Incremental Build of configuration Debug for project StepMotor ****
+make -j12 all 
+arm-none-eabi-size  StepMotor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57440	    108	  24684	  82232	  14138	StepMotor.elf
+Finished building: default.size.stdout
+ 
+22:34:18 **** Incremental Build of configuration Debug for project StepMotor ****
+make -j12 all 
+arm-none-eabi-size  StepMotor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57440	    108	  24684	  82232	  14138	StepMotor.elf
+Finished building: default.size.stdout
+ 
+22:35:30 **** Incremental Build of configuration Debug for project StepMotor ****
+make -j12 all 
+arm-none-eabi-size  StepMotor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57440	    108	  24684	  82232	  14138	StepMotor.elf
+Finished building: default.size.stdout
+ 
+22:40:02 **** Incremental Build of configuration Debug for project StepMotor ****
+make -j12 all 
+arm-none-eabi-size  StepMotor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57440	    108	  24684	  82232	  14138	StepMotor.elf
+Finished building: default.size.stdout
+ 
+23:09:02 **** Incremental Build of configuration Debug for project StepMotor ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/App/app_control/app_control.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/as5600" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/motor_map" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/motor_map" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/app_control" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/stepper_control" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/uart_protocol" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/App/app_control/app_control.d" -MT"Core/App/app_control/app_control.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/App/app_control/app_control.o"
+../Core/App/app_control/app_control.c:1154:16: warning: 'get_encoder_zero_pos_snapshot' defined but not used [-Wunused-function]
+ 1154 | static int32_t get_encoder_zero_pos_snapshot(void) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "StepMotor.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\WEB\firmware\DoAnTotNghiep\StepMotor\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="StepMotor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: StepMotor.elf
+ 
+arm-none-eabi-size  StepMotor.elf 
+arm-none-eabi-objdump -h -S StepMotor.elf  > "StepMotor.list"
+   text	   data	    bss	    dec	    hex	filename
+  58000	    108	  24684	  82792	  14368	StepMotor.elf
+Finished building: default.size.stdout
+ 
+Finished building: StepMotor.list
+ 
+23:17:01 **** Incremental Build of configuration Debug for project StepMotor ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/App/app_control/app_control.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/as5600" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/motor_map" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/motor_map" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/app_control" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/stepper_control" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/uart_protocol" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/App/app_control/app_control.d" -MT"Core/App/app_control/app_control.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/App/app_control/app_control.o"
+../Core/App/app_control/app_control.c:1108:16: warning: 'get_encoder_zero_pos_snapshot' defined but not used [-Wunused-function]
+ 1108 | static int32_t get_encoder_zero_pos_snapshot(void) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "StepMotor.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\WEB\firmware\DoAnTotNghiep\StepMotor\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="StepMotor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: StepMotor.elf
+ 
+arm-none-eabi-size  StepMotor.elf 
+arm-none-eabi-objdump -h -S StepMotor.elf  > "StepMotor.list"
+   text	   data	    bss	    dec	    hex	filename
+  57744	    108	  24684	  82536	  14268	StepMotor.elf
+Finished building: default.size.stdout
+ 
+Finished building: StepMotor.list
+ 
+00:15:33 **** Incremental Build of configuration Debug for project StepMotor ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/App/app_control/app_control.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/as5600" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/motor_map" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/motor_map" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/app_control" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/stepper_control" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/uart_protocol" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/App/app_control/app_control.d" -MT"Core/App/app_control/app_control.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/App/app_control/app_control.o"
+../Core/App/app_control/app_control.c:1111:16: warning: 'get_encoder_zero_pos_snapshot' defined but not used [-Wunused-function]
+ 1111 | static int32_t get_encoder_zero_pos_snapshot(void) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "StepMotor.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\WEB\firmware\DoAnTotNghiep\StepMotor\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="StepMotor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: StepMotor.elf
+ 
+arm-none-eabi-size  StepMotor.elf 
+arm-none-eabi-objdump -h -S StepMotor.elf  > "StepMotor.list"
+   text	   data	    bss	    dec	    hex	filename
+  57776	    108	  24684	  82568	  14288	StepMotor.elf
+Finished building: default.size.stdout
+ 
+Finished building: StepMotor.list
+ 
+00:18:21 **** Incremental Build of configuration Debug for project StepMotor ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/App/app_control/app_control.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/as5600" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/motor_map" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/motor_map" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/app_control" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/stepper_control" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/uart_protocol" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/App/app_control/app_control.d" -MT"Core/App/app_control/app_control.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/App/app_control/app_control.o"
+../Core/App/app_control/app_control.c:1111:16: warning: 'get_encoder_zero_pos_snapshot' defined but not used [-Wunused-function]
+ 1111 | static int32_t get_encoder_zero_pos_snapshot(void) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "StepMotor.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\WEB\firmware\DoAnTotNghiep\StepMotor\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="StepMotor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: StepMotor.elf
+ 
+arm-none-eabi-size  StepMotor.elf 
+arm-none-eabi-objdump -h -S StepMotor.elf  > "StepMotor.list"
+   text	   data	    bss	    dec	    hex	filename
+  57808	    108	  24684	  82600	  142a8	StepMotor.elf
+Finished building: default.size.stdout
+ 
+Finished building: StepMotor.list
+ 
+19:11:49 **** Incremental Build of configuration Debug for project StepMotor ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/App/app_control/app_control.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/as5600" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/motor_map" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/motor_map" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/app_control" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/stepper_control" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/uart_protocol" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/App/app_control/app_control.d" -MT"Core/App/app_control/app_control.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/App/app_control/app_control.o"
+../Core/App/app_control/app_control.c:1117:16: warning: 'get_encoder_zero_pos_snapshot' defined but not used [-Wunused-function]
+ 1117 | static int32_t get_encoder_zero_pos_snapshot(void) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "StepMotor.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\WEB\firmware\DoAnTotNghiep\StepMotor\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="StepMotor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: StepMotor.elf
+ 
+arm-none-eabi-size  StepMotor.elf 
+arm-none-eabi-objdump -h -S StepMotor.elf  > "StepMotor.list"
+   text	   data	    bss	    dec	    hex	filename
+  57888	    108	  24684	  82680	  142f8	StepMotor.elf
+Finished building: default.size.stdout
+ 
+Finished building: StepMotor.list
+ 
+19:12:07 **** Incremental Build of configuration Debug for project StepMotor ****
+make -j12 all 
+arm-none-eabi-size  StepMotor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  57888	    108	  24684	  82680	  142f8	StepMotor.elf
+Finished building: default.size.stdout
+ 
+20:52:25 **** Incremental Build of configuration Debug for project StepMotor ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/App/app_control/app_control.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/as5600" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/motor_map" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/motor_map" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/app_control" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/stepper_control" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/uart_protocol" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/App/app_control/app_control.d" -MT"Core/App/app_control/app_control.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/App/app_control/app_control.o"
+../Core/App/app_control/app_control.c:1119:16: warning: 'get_encoder_zero_pos_snapshot' defined but not used [-Wunused-function]
+ 1119 | static int32_t get_encoder_zero_pos_snapshot(void) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "StepMotor.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\WEB\firmware\DoAnTotNghiep\StepMotor\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="StepMotor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: StepMotor.elf
+ 
+arm-none-eabi-size  StepMotor.elf 
+arm-none-eabi-objdump -h -S StepMotor.elf  > "StepMotor.list"
+   text	   data	    bss	    dec	    hex	filename
+  57888	    108	  24684	  82680	  142f8	StepMotor.elf
+Finished building: default.size.stdout
+ 
+Finished building: StepMotor.list
+ 
+21:10:09 **** Incremental Build of configuration Debug for project StepMotor ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/App/app_control/app_control.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/as5600" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/motor_map" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/motor_map" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/app_control" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/stepper_control" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/uart_protocol" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/App/app_control/app_control.d" -MT"Core/App/app_control/app_control.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/App/app_control/app_control.o"
+../Core/App/app_control/app_control.c:1119:16: warning: 'get_encoder_zero_pos_snapshot' defined but not used [-Wunused-function]
+ 1119 | static int32_t get_encoder_zero_pos_snapshot(void) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "StepMotor.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\WEB\firmware\DoAnTotNghiep\StepMotor\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="StepMotor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: StepMotor.elf
+ 
+arm-none-eabi-size  StepMotor.elf 
+arm-none-eabi-objdump -h -S StepMotor.elf  > "StepMotor.list"
+   text	   data	    bss	    dec	    hex	filename
+  57888	    108	  24684	  82680	  142f8	StepMotor.elf
+Finished building: default.size.stdout
+ 
+Finished building: StepMotor.list
+ 
+23:09:29 **** Incremental Build of configuration Debug for project StepMotor ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/App/app_control/app_control.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/as5600" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/motor_map" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/motor_map" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/app_control" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/stepper_control" -I"D:/WEB/firmware/DoAnTotNghiep/StepMotor/Core/App/uart_protocol" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/App/app_control/app_control.d" -MT"Core/App/app_control/app_control.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/App/app_control/app_control.o"
+../Core/App/app_control/app_control.c:1119:16: warning: 'get_encoder_zero_pos_snapshot' defined but not used [-Wunused-function]
+ 1119 | static int32_t get_encoder_zero_pos_snapshot(void) {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "StepMotor.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\WEB\firmware\DoAnTotNghiep\StepMotor\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="StepMotor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: StepMotor.elf
+ 
+arm-none-eabi-size  StepMotor.elf 
+arm-none-eabi-objdump -h -S StepMotor.elf  > "StepMotor.list"
+   text	   data	    bss	    dec	    hex	filename
+  57888	    108	  24684	  82680	  142f8	StepMotor.elf
+Finished building: default.size.stdout
+ 
+Finished building: StepMotor.list
+ 

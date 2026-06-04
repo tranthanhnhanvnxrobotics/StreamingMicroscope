@@ -1,0 +1,2 @@
+../Core/Src/freertos.c:52:6:StartDefaultTask	1
+../Core/Src/freertos.c:61:6:StartControlTask	2

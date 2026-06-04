@@ -1,0 +1,10 @@
+../Core/App/stepper_control/stepper_control.c:3:13:set_step_pin	16	static
+../Core/App/stepper_control/stepper_control.c:7:13:set_dir_pin	16	static
+../Core/App/stepper_control/stepper_control.c:15:13:stop_internal	16	static
+../Core/App/stepper_control/stepper_control.c:49:6:Stepper_Init	24	static
+../Core/App/stepper_control/stepper_control.c:67:6:Stepper_EnableDriver	16	static
+../Core/App/stepper_control/stepper_control.c:76:6:Stepper_Run	24	static
+../Core/App/stepper_control/stepper_control.c:80:6:Stepper_MoveSteps	24	static
+../Core/App/stepper_control/stepper_control.c:104:6:Stepper_Stop	16	static
+../Core/App/stepper_control/stepper_control.c:108:6:Stepper_IsRunning	16	static
+../Core/App/stepper_control/stepper_control.c:112:6:Stepper_OnTimerTickISR	16	static
